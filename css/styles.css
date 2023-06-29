@@ -19,7 +19,7 @@ body {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -77,6 +77,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.contact {
+  font-style: normal;
+}
+
 .contact-list-item {
   color: var(--slate);
   font-size: 16px;
@@ -117,6 +121,7 @@ body {
   letter-spacing: 0.04em;
   background: var(--iris);
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero-btn:hover,
@@ -126,6 +131,10 @@ body {
 
 /**-----WORK----- */
 
+.work {
+  background-color: var(--cloud);
+}
+
 .work-title {
   color: var(--navyblue);
   text-align: center;
@@ -134,6 +143,24 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+/**-----WORK----- */
+
+.team-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-list-item {
+  background-color: var(--white);
 }
 
 /**-----FOOTER----- */
@@ -146,7 +173,7 @@ body {
   font-size: 18px;
   font-family: Raleway;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
