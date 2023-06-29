@@ -124,8 +124,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--ocean);
 }
 
@@ -145,7 +145,11 @@ body {
   text-transform: capitalize;
 }
 
-/**-----WORK----- */
+/**-----TEAM----- */
+
+.team {
+  background-color: var(--cloud);
+}
 
 .team-title {
   color: var(--navyblue);
